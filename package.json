@@ -1,0 +1,23 @@
+{
+  "name": "daily-reminder",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "每日事项提示器：按年份浏览、按日期录入事项、支持每年重复，并在本地时间 00:00 自动弹窗提醒",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5273",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5273",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}
